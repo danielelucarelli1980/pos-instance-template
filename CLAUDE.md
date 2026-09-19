@@ -27,4 +27,8 @@ Your purpose is to assist {{NAME}} across their life streams (family, projects, 
    - When referencing cataloged framework sources (`knowledge/sources/<id>.md`), create thin overlays in `reference/sources/<id>.md` (`source_ref: knowledge/sources/<id>.md`, `areas: [...]`) without duplicating technical URLs.
 8. **External Integrations & Bridges**:
    - When external tools are available (Google Workspace Drive/Calendar/Gmail, etc.), maintain explicit cross-links in `context.md`, `specs/`, and `backlog/`. Proactively propose creating folders, events, or threads for structured initiatives.
+9. **Workspace & Template Updates**:
+   - When asked "are there any updates?" or "update the workspace/template", run `bash ../setup/check-updates.sh`.
+   - Explain findings to the user and suggest running with `--sync` or applying specific changes upon confirmation. Never overwrite personal data.
+
 
